@@ -1,0 +1,152 @@
+    1  git config --global user.name "Kaden Franklin"
+    2  git config --globar user.email "kadenf17@gmail.com"
+    3  git config --global user.email "kadenf17@gmail.com"
+    6  git --version
+    7  git config --list
+   26  git status
+   27  git init
+   28  git status
+   30  rm -rf .git
+   31  git init
+   34  git status
+   35  git add file_1.txt 
+   36  git status
+   37  git commit -m 'created file_1.txt'
+   38  git status
+   39  git log
+   43  git add davis1.txt 
+   44  git status
+   45  git add davis2.txt 
+   46  git status
+   48  git status
+   49  git add davis2.txt 
+   50  git status
+   51  git log
+   52  git commmit -m "added davis files"
+   53  git commit -m "added davis files"
+   54  git log
+   55  git log --oneline
+   98  git@github.com:porterjenkins/CS180.git
+   99  git
+  100  git@github.com:porterjenkins/CS180.git
+  101  git clone git@github.com:porterjenkins/CS180.git
+  105  git init
+  108  git branxch
+  109  git branch
+  112  git add
+  113  git add *
+  114  git commit -m "Add Newfile1"
+  116  git branch new_feature
+  117  git branch
+  118  git switch new_feature 
+  120  git add .
+  121  git commit -m 'create new feature file'
+  122  git status
+  123  git log --oneline
+  124  git switch main
+  126  git switch new_feature 
+  128  git switch main
+  129  git branch
+  130  git merge new_feature 
+  131  git branch
+  132  git log
+  133  git branch -d new_feature 
+  134  git branch
+  135  git log 
+  138  git innit
+  139  git init
+  140  git status
+  144  git status
+  145  git add .
+  146  git status
+  147  git commit -m "create new files"
+  148  git status
+  149  git log
+  153  git status
+  154  git add file_1.txt
+  155  git status
+  156  git commit .
+  157  git status
+  161  git status
+  163  git add file_2.txt 
+  164  git commit 
+  165  git log
+  168  git add .
+  170  git commit
+  171  git log
+  172  git status
+  173  touch .gitignore
+  176  nano .gitignore
+  178  git status
+  180  git status
+  181  git add .gitignore
+  182  git commit -m "add gitignore"
+  184  git status
+  185  git branch features
+  186  git switch features
+  189  git add .
+  190  git commit -m "add empty file"
+  191  git switch main
+  194  git switch features
+  196  git add .
+  197  git commit -m "added text to new_features.txt"
+  200  git switch main
+  203  git add .
+  204  git commit -m "changed file_1.txt"
+  205  git merge features
+  206  git branches
+  207  git branch
+  208  git log
+  209  git log
+  210  git log
+  211  git log --oneline
+  213  git init
+  215  git status
+  218  git status
+  219  git add .
+  220  git commit -m "create new files"
+  221  git status
+  222  git log --oneline
+  225  git status
+  226  git add file_1.txt
+  227  git commit file_1.txt -m "change file 1"
+  228  git status
+  229  git add .
+  230  git commit -m "change file 2"
+  231  git log --oneline
+  234  git add .
+  235  git commit -m "add readme.md"
+  236  touch .gitignore
+  237  nano .gitignore
+  239  git status
+  240  git add .
+  241  git commit -m "add gitignore"
+  243  git status
+  244  git branch features
+  246  git switch features
+  247  git log --oneline
+  249  git add .
+  250  git commit -m "add empty file"
+  252  git add .
+  253  git commit -m "add text in new_features.txt"
+  256  git switch main
+  259  git add .
+  260  git commit -m "add new line to file_1.txt"
+  261  git merge features
+  262  git log --oneline
+  264  git add .
+  265  git commit -m "Change new_feature.txt, no new features"
+  266  git switch features
+  268  git add .
+  269  git commit -m "changed new_featues.txt"
+  270  git switch main
+  271  git merge features
+  273  git add .
+  274  git commit -m "Merge with features"
+  275  git branch -d features
+  276  git remote add origin git@github.com:kadenf17/git-practice-kadenf17.git
+  277  git push -u origin main
+  278  git pull
+  279  git log --oneline > gitlog.txt
+  280   history | grep git > history.txt
+  281  history | grep git > history.txt
